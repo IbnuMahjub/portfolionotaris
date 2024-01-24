@@ -64,9 +64,9 @@ export default function Home() {
               Tuntaskan Pemenuhan Hak Legal Anda, Raih Keamanan Hukum Bersama Kami: Notaris, Pelindung Kepastian dan Pembuat Kenangan.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <a href="#"> <CgMail /></a>
-              <a href="https://wa.me/6281310649885" target="_blank"><AiOutlineWhatsApp /></a>
-              <a href="https://maps.app.goo.gl/TvH46wtcvwNmmkDFA" target="_blank"><SiGooglemaps /></a>
+              <a href="#" rel="noreferrer"> <CgMail /></a>
+              <a href="https://wa.me/6281310649885" target="_blank" rel="noreferrer"><AiOutlineWhatsApp /></a>
+              <a href="https://maps.app.goo.gl/TvH46wtcvwNmmkDFA" target="_blank" rel="noreferrer"><SiGooglemaps /></a>
             </div>
             {/*  */}
             {/* <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
