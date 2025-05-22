@@ -34,6 +34,7 @@ export default function Home() {
         <link rel="canonical" href="https://idamhudi.vercel.app/" />
         <link rel="icon" href="/favicon.ico" />
         <meta name="robots" content="index, follow" />
+        <meta name="google-site-verification" content="_Sbf6D3b3k3X_c6z0LEYHNPs1wMzm5X3Hpi7HME1cE0" />
       </Head>
 
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
