@@ -202,3 +202,36 @@ export default function Home() {
     </div>
   );
 }
+
+export async function getStaticProps() {
+  // Data yang kamu ingin fetch dan sajikan secara statis
+  const services = [
+    {
+      id: 1,
+      image: design,
+      title: "Verifikasi Dokumen",
+      subtitle: "Pendaftaran dan Pengesahan Legalisir",
+      description: "Verifikasi keabsahan dokumen-dokumen hukum",
+    },
+    {
+      id: 2,
+      image: code,
+      title: "Surat Kuasa",
+      subtitle: "Pembuatan Surat Kuasa",
+      description: "Pembuatan akta kuasa.",
+    },
+    {
+      id: 3,
+      image: consulting,
+      title: "Akta Notaris",
+      subtitle: "Pembuatan akta pendirian perusahaan",
+      description: "Akta CV, Akta PT, Perjanjian",
+    },
+  ];
+
+  return {
+    props: {
+      services, // Data ini akan diteruskan sebagai props ke komponen
+    },
+  };
+}
